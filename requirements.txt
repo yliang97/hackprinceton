@@ -14,8 +14,6 @@ Flask-SQLAlchemy==2.1
 Flask-WhooshAlchemy==0.56
 Flask-WTF==0.13.1
 flipflop==1.0
-guess-language==0.2
-guess-language-spirit==0.5a4
 gunicorn==19.6.0
 ipython==5.1.0
 ipython-genutils==0.1.0
