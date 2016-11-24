@@ -1,6 +1,8 @@
-from flask import Flask, url_for, request, json
+from app import app
+
+from flask import url_for, request, json
 from flask import render_template
-app = Flask(__name__)
+
 
 import tweepy
 import keys
@@ -96,7 +98,3 @@ def helloworld():
 @app.route('/')
 def begin():
     return render_template('twitter.html')
-
- #!flask/bin/python
-
-app.run(debug=True)
