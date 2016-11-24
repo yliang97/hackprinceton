@@ -1,0 +1,1 @@
+Welcome to Top Twelve Tweets! This is a Twitter scraper that allows the user to input a Twitter username and returns the top twelve tweets of that person. Created for Hack Princeton Fall 2016

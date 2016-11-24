@@ -3,16 +3,17 @@ from flask import render_template
 app = Flask(__name__)
 
 import tweepy
-
+import keys
 
 try:
     import Queue as Q  # ver. < 3.0
 except ImportError:
     import queue as Q
-consumer_key = 'HEKsieSU445HOfBqEkBohdGE7'
-consumer_secret = 'l4Y7FtquYcYi5bDNhwe14VdUQs32XHi81GbxDRKm40oaBpp7UW'
-access_token = '486153903-wBYCmmJHV48PAibNArBJPsAYUo03NPcrTCMolZO4'
-access_token_secret = 'WWWbuzCTz5QtLqJ088elvxO1q7ZGM9pog45fdZSeamdA9'
+
+consumer_key = keys.key
+consumer_secret = keys.secret
+access_token = keys.token
+access_token_secret = keys.tsecret
 
 
 def twitter (username):

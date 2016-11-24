@@ -1,0 +1,5 @@
+
+key = 'HEKsieSU445HOfBqEkBohdGE7'
+secret = 'l4Y7FtquYcYi5bDNhwe14VdUQs32XHi81GbxDRKm40oaBpp7UW'
+token = '486153903-wBYCmmJHV48PAibNArBJPsAYUo03NPcrTCMolZO4'
+tsecret = 'WWWbuzCTz5QtLqJ088elvxO1q7ZGM9pog45fdZSeamdA9'
