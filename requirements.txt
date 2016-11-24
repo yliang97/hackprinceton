@@ -1,0 +1,8 @@
+Flask==0.11.1
+gunicorn==19.6.0
+python3-openid==3.0.10
+tweepy==3.5.0
+requests==2.11.1
+requests-oauthlib==0.7.0
+oauthlib==2.0.0
+decorator==4.0.10
